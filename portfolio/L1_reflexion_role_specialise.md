@@ -12,28 +12,30 @@ _(Klarna / GitHub Copilot Enterprise / Morgan Stanley)_
 
 ## 1. Probleme d'affaires resolu
 
-_(En 2-3 phrases : quel probleme concret l'organisation cherchait-elle a resoudre ?)_
+_Klarna cherchait à réduire la charge de travail de son service client tout en améliorant la rapidité des réponses aux utilisateurs. L’entreprise voulait aussi offrir un support disponible 24/7 sans augmenter massivement les coûts liés à l’embauche de nouveaux employés._
 
 ## 2. Fonction d'affaires ciblee
 
-_(Service client, developpement logiciel, analyse financiere, etc.)_
+Service client et support aux utilisateurs.
 
 ## 3. Role specialise que l'agent orchestre
-
-_(Nommez-le precisement : agent de service client, agent developpeur, agent analyste, etc.)_
+Agent conversationnel de service client alimenté par l’intelligence artificielle.
 
 ## 4. Valeur creee — quantifiee avec donnees publiques
 
-_(Chiffres concrets issus des sources du cours. Ex. : 700 agents equivalents, 55 % plus rapide, etc.)_
+Selon les données publiées par Klarna, leur assistant IA effectue le travail équivalent à environ 700 agents du service client. L’agent gère environ les deux tiers des conversations clients et réduit le temps moyen de résolution des demandes de 11 minutes à environ 2 minutes. Cela permet aussi une réduction importante des coûts opérationnels.
 
 ## 5. Risque principal et mitigation concrete
-
-_(Quel est le risque le plus important ? Quelle mesure concrete le reduit ?)_
+Le principal risque est de fournir des réponses inexactes ou impersonnelles aux clients, ce qui pourrait diminuer la satisfaction et la confiance des utilisateurs. Pour réduire ce risque, Klarna maintient une supervision humaine et utilise des mécanismes de validation afin que les cas complexes soient transférés à de vrais employés.
 
 ## 6. Condition de succes pour votre organisation
-
-_(Qu'est-ce qui doit etre en place pour que ce deploiement agentique fonctionne ?)_
+Pour qu’un déploiement agentique fonctionne, l’organisation doit avoir des données fiables, des processus bien structurés et une supervision humaine efficace. Les employés doivent aussi être formés à collaborer avec l’IA afin d’assurer une bonne qualité de service et une intégration réussie.
 
 ---
 
-> **Rappel :** mettez a jour `ai-usage.md` a la racine du depot, meme si vous n'avez utilise aucun outil IA.
+> **Rappel :** # AI Usage
+
+Utilisation de ChatGPT pour :
+- reformulation
+- recherche d’informations
+- structuration des réponses
