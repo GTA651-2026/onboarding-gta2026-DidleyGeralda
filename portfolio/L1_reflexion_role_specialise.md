@@ -8,7 +8,7 @@
 
 ## Cas choisi
 
-_(Klarna / GitHub Copilot Enterprise / Morgan Stanley)_
+_Klarna
 
 ## 1. Probleme d'affaires resolu
 
