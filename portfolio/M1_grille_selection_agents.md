@@ -1,64 +1,49 @@
 # M1 — Grille de sélection et évaluation de solutions IA
 
-> Comparez **Brex** (CFO virtuel), **Salesforce Einstein** (aide à la décision commerciale)
-> et **Microsoft Copilot 365** (productivité) sur 5 critères, pour **deux contextes** :
-> une PME de 50 employés et une grande entreprise de 500+ employés.
-> Concluez par une **recommandation argumentée par contexte**.
->
-> Exportez en PDF et déposez `M1_grille_selection_agents.pdf` dans ce dossier.
-> Mettez à jour `ai-usage.md` à la racine du dépôt (obligatoire, même si « Aucun »).
-
----
-
 ## Contexte 1 — PME de 50 employés
 
-_(Décrivez brièvement la PME : secteur, maturité numérique, budget IA approximatif, équipe IT.)_
+PME québécoise du secteur des services et de la distribution. L’entreprise possède une maturité numérique intermédiaire : Microsoft 365 est déjà utilisé, mais l’automatisation demeure limitée. Le budget annuel approximatif consacré à l’IA varie entre 20 000 $ et 50 000 $. L’équipe TI est composée d’une ou deux personnes avec soutien externe occasionnel.
 
 | Critère | Brex | Salesforce Einstein | Microsoft Copilot 365 |
 |---|---|---|---|
-| **1. Rôle spécialisé orchestré** _(nommez le spécialiste que l'agent remplace/augmente)_ | | | |
-| **2. Impact d'affaires** _(1-5 + justification en 1 phrase)_ | | | |
-| **3. Faisabilité PME** _(1-5 + données, compétences, intégration)_ | | | |
-| **4. Coût estimé** _(ordre de grandeur annuel + TCO si pertinent)_ | | | |
-| **5. Risque principal** _(et mitigation concrète)_ | | | |
+| **1. Rôle spécialisé orchestré** | Augmente le rôle de directeur financier (CFO virtuel) pour la gestion des dépenses et la prévision budgétaire. | Augmente le rôle d’analyste CRM et de responsable des ventes. | Augmente le rôle d’adjoint administratif, analyste et employé de bureau. |
+| **2. Impact d'affaires** | 3/5 — Bon impact sur les finances, mais touche peu les autres départements. | 4/5 — Améliore les ventes et l’analyse client grâce aux recommandations IA. | 5/5 — Gains rapides de productivité dans Outlook, Word, Teams et Excel. |
+| **3. Faisabilité PME** | 3/5 — Exige une structure financière et des intégrations bancaires fiables. | 2/5 — Déploiement complexe pour une PME avec peu de ressources CRM. | 5/5 — Très compatible avec l’écosystème Microsoft déjà utilisé. |
+| **4. Coût estimé** | 15 000 $ à 40 000 $/an incluant intégrations et support. | 40 000 $ à 100 000 $/an avec licences et personnalisation. | 12 000 $ à 30 000 $/an selon le nombre d’utilisateurs. |
+| **5. Risque principal** | Risque d’erreurs financières automatisées. Mitigation : validation humaine et contrôles internes. | Risque de mauvaise qualité des données CRM. Mitigation : gouvernance des données. | Risque de fuite d’information sensible. Mitigation : gestion des accès et conformité à la Loi 25. |
 
 ### Recommandation pour la PME
 
-_(2-3 phrases : quelle solution déployer en premier, et pourquoi ce choix bat les deux autres dans CE contexte.)_
+Microsoft Copilot 365 représente la meilleure option pour une PME de 50 employés. La solution offre un retour sur investissement rapide grâce à l’amélioration de la productivité quotidienne et à une intégration simple avec les outils déjà présents dans plusieurs PME québécoises. Comparativement à Salesforce Einstein et Brex, elle demande moins de ressources techniques et moins de transformation organisationnelle.
 
 ---
 
 ## Contexte 2 — Grande entreprise de 500+ employés
 
-_(Décrivez brièvement : secteur, systèmes existants — ERP/CRM, contraintes de gouvernance, sponsor.)_
+Grande entreprise québécoise du secteur manufacturier et financier possédant déjà un ERP, un CRM Salesforce et des infrastructures infonuagiques avancées. L’organisation dispose d’une équipe TI spécialisée, d’équipes cybersécurité et d’un cadre de gouvernance des données. Le projet IA est soutenu par la direction de la transformation numérique.
 
 | Critère | Brex | Salesforce Einstein | Microsoft Copilot 365 |
 |---|---|---|---|
-| **1. Rôle spécialisé orchestré** | | | |
-| **2. Impact d'affaires** _(1-5 + justification)_ | | | |
-| **3. Faisabilité grande entreprise** _(1-5 + intégration systèmes, gouvernance)_ | | | |
-| **4. Coût estimé** _(licences + intégration + formation)_ | | | |
-| **5. Risque principal** _(et mitigation)_ | | | |
+| **1. Rôle spécialisé orchestré** | Augmente les rôles de CFO et analystes financiers. | Augmente les rôles d’analystes CRM, ventes et marketing. | Augmente les rôles de gestionnaires et employés administratifs. |
+| **2. Impact d'affaires** | 4/5 — Optimise la gestion des dépenses à grande échelle. | 5/5 — Génère une forte valeur stratégique à partir des données clients. | 4/5 — Améliore fortement la productivité interne. |
+| **3. Faisabilité grande entreprise** | 4/5 — Bonne intégration avec les systèmes financiers existants. | 5/5 — Très adapté aux organisations déjà équipées de Salesforce. | 5/5 — Déploiement facilité dans les environnements Microsoft 365. |
+| **4. Coût estimé** | 100 000 $ à 300 000 $/an incluant intégration et gouvernance. | 300 000 $ à 1 M$/an selon la personnalisation et la formation. | 150 000 $ à 500 000 $/an selon le nombre d’utilisateurs. |
+| **5. Risque principal** | Risque réglementaire et financier. Mitigation : audits et supervision humaine. | Risque de confidentialité et biais IA. Mitigation : gouvernance IA et conformité Loi 25. | Risque de mauvaise utilisation des outils IA. Mitigation : formation et politiques internes. |
 
 ### Recommandation pour la grande entreprise
 
-_(2-3 phrases : quelle solution, et pourquoi le choix diffère — ou ne diffère pas — de la PME.)_
+Dans une grande entreprise, Salesforce Einstein devient la solution la plus stratégique. L’organisation possède déjà les données, les équipes TI et la gouvernance nécessaires pour exploiter efficacement une IA avancée liée au CRM et à l’analyse commerciale. Le choix diffère de celui de la PME puisque la maturité numérique et les ressources internes permettent d’absorber la complexité et les coûts d’intégration.
 
 ---
 
 ## Synthèse — ce que la grille révèle
 
-_(3-5 phrases : quel critère a fait basculer la décision ? Qu'est-ce que ça enseigne sur la sélection de solutions IA en général ? Préparation directe à l'Examen-cas 1.)_
+La grille démontre que la faisabilité organisationnelle est le critère qui influence le plus la sélection d’une solution IA. Une technologie très performante peut devenir inefficace si l’entreprise ne possède pas les données, les compétences ou les ressources nécessaires pour l’utiliser correctement. Pour une PME, la simplicité et les gains rapides favorisent Microsoft Copilot 365. Pour une grande entreprise, Salesforce Einstein offre une valeur stratégique supérieure grâce à l’exploitation des données clients. Cette analyse montre que la sélection d’une IA doit toujours être alignée avec la maturité numérique et les objectifs d’affaires de l’organisation.
 
----
+# AI Usage
 
-## Liste de contrôle de remise
+Outils IA utilisés :
+- ChatGPT : aide à la rédaction, structuration et comparaison des solutions IA.
+- Génération du document PDF et synthèse des recommandations.
 
-- [ ] Les 3 agents sont comparés sur les mêmes 5 critères dans les deux contextes
-- [ ] Le rôle spécialisé orchestré est nommé précisément pour chaque agent
-- [ ] Les scores sont justifiés (pas juste des chiffres)
-- [ ] La recommandation diffère — ou est explicitement justifiée comme identique — entre PME et grande entreprise
-- [ ] Le contexte d'une organisation québécoise est pris en compte (Loi 25, marché local, talent)
-- [ ] `ai-usage.md` mis à jour à la racine du dépôt
 
-> **Crédit :** Jalon M1 — pass/fail (1,5 % du cours). Préparation directe à l'**Examen-cas 1** (S05, 25 %).
