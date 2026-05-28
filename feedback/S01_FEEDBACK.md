@@ -1,65 +1,60 @@
 # Rétroaction automatisée -- S01 (L'IA générative et l'ère agentique : orchestrer des experts sans en être un)
 
-_Générée le 2026-05-28T20:15:44+00:00 -- Run `20260528T200936Z-acdfcf6a`_
+_Générée le 2026-05-28T20:49:48+00:00 -- Run `20260528T204526Z-4170164e`_
 
-Ce document est produit par un pipeline reproductible (vérification SQL déterministe + analyse LLM du brief et de la déclaration IA). Une revue humaine précède toujours sa publication. **À ce stade expérimental, aucune note ni étiquette de niveau n'est diffusée : l'objectif est purement formatif.**
+Ce document est produit par un pipeline reproductible (validation automatique du livrable + analyse LLM du brief et de la déclaration IA). Une revue humaine précède toujours sa publication. **À ce stade expérimental, aucune note ni étiquette de niveau n'est diffusée : l'objectif est purement formatif.**
 
 ---
 
-## 1. Vérification automatique de la requête SQL
+## 1. Rétroaction pédagogique sur le brief
 
-La vérification automatique n'a pas pu être réalisée (gate non applicable (type=text_artifact, must_run=False)).
-
-
-## 2. Rétroaction pédagogique sur le brief
-
-> Le brief présente correctement le problème d'affaires et apporte des données publiques fortes sur la valeur créée par l'agent Klarna. Cependant il manque une différenciation organisationnelle (PME vs grande entreprise), une grille de justification par critère et une recommandation finale argumentée.
+> Le brief identifie clairement le problème d'affaires et apporte des chiffres publics convaincants sur la valeur créée par l'agent Klarna. Il manque toutefois de différenciation contextuelle (PME vs grande entreprise), d'une grille justificative par critères et d'une recommandation argumentée pour la direction.
 
 ### Observations par dimension
 
 **Contexte organisationnel**
-- Observation : Le brief indique seulement le cas choisi « Klarna » sans différencier PME vs grande entreprise, ni préciser taille, secteur ou budget.
-- Piste d'amélioration : Ajoutez une description distincte pour un scénario PME et un scénario grande entreprise (taille, secteur, budget) et expliquez comment la recommandation divergerait pour chacun.
+- Observation : Le brief mentionne seulement «Klarna» sans définir taille, budget ou différencier PME vs grande entreprise.
+- Piste d'amélioration : Précisez la taille, le secteur et un ordre de grandeur de budget et donnez une recommandation distincte pour une PME et pour une grande entreprise.
 
 **Justification criteres**
-- Observation : Aucune grille de sélection avec impact, faisabilité, risque et coût pour les agents n'est fournie dans le document.
-- Piste d'amélioration : Fournissez une grille avec les quatre critères (impact, faisabilité, risque, coût) pour chaque agent et justifiez chaque cellule par une donnée ou une hypothèse vérifiable.
+- Observation : Aucune grille de critères (impact, faisabilité, risque, coût) ni justifications chiffrées pour des agents concurrents n'est fournie.
+- Piste d'amélioration : Construisez une grille avec les quatre critères pour chaque option et ajoutez une justification factuelle ou une hypothèse vérifiable pour chaque cellule.
 
 **Role specialise identifie**
-- Observation : Le rôle est nommé « Agent conversationnel de service client alimenté par l’intelligence artificielle », exprimé en langage métier.
-- Piste d'amélioration : Précisez la distinction entre cet agent spécialisé et un agent généraliste et illustrez par un exemple concret d'action métier différenciée.
+- Observation : Le document nomme un «Agent conversationnel de service client» et cible la fonction Service client et support aux utilisateurs.
+- Piste d'amélioration : Raffinez la description en formulant la valeur métier en une phrase précise (ex. : «priorise et résout 65 % des demandes récurrentes sans intervention humaine»).
 
 **Recommandation argumentee**
-- Observation : Le document ne formule pas de recommandation claire ni de comparaison explicite entre options ; il liste des conditions et risques sans conclure.
-- Piste d'amélioration : Formulez une recommandation claire (par contexte) et expliquez pourquoi les autres options ont été écartées en exposant le compromis valeur/risque.
+- Observation : Le brief ne formule pas de recommandation finale ni n'expose le compromis entre options.
+- Piste d'amélioration : Formulez une recommandation claire (par contexte) et expliquez pourquoi les autres options sont écartées en termes de valeur, risque et coût.
 
 **Role specialise**
-- Observation : Le brief indique que l’agent effectue « le travail équivalent à environ 700 agents du service client », montrant qu'il remplace/augmente des agents humains.
-- Piste d'amélioration : Expliquez plus précisément quel expert humain est remplacé ou augmenté (p. ex. « agent niveau 1 du support client ») et pourquoi ce rôle est stratégique pour Klarna.
+- Observation : Le texte indique que l'agent gère les conversations clients (équivalent à ~700 agents) et que des employés humains prennent en charge les cas complexes.
+- Piste d'amélioration : Identifiez explicitement quel expert humain est remplacé/augmenté (ex. : «agent support niveau 1») et expliquez pourquoi ce rôle est stratégique pour Klarna.
 
 **Probleme affaires**
-- Observation : Le problème est formulé en langage exécutif : réduire la charge du service client, accélérer les réponses et offrir un support 24/7 sans coûts d’embauche massifs.
-- Piste d'amélioration : Ajoutez un ancrage chiffré (p. ex. volume de tickets, taux de satisfaction actuel) pour renforcer l’urgence et la portée du problème.
+- Observation : Le problème est formulé en langage exécutif: réduire la charge du service client, accélérer les réponses et offrir un support 24/7 sans coûts salariaux élevés.
+- Piste d'amélioration : Ajoutez un ancrage chiffré ou un KPI (ex. : volume mensuel de tickets, coût moyen par interaction) pour rendre le problème plus concret pour la direction.
 
 **Valeur creee**
-- Observation : Le brief cite des données publiques : l’agent gère environ les deux tiers des conversations et réduit le temps moyen de résolution de 11 minutes à 2 minutes, équivalent à ~700 agents.
-- Piste d'amélioration : Indiquez si ces gains se traduisent en économies annuelles estimées ou en amélioration mesurable du NPS pour rendre la valeur encore plus vérifiable.
+- Observation : Le brief cite des données publiques: équivalent à ~700 agents, gère ~2/3 des conversations et réduit le temps moyen de résolution de 11 à 2 minutes.
+- Piste d'amélioration : Précisez l'impact financier estimé (économie annuelle ou coût évité) pour lier directement ces chiffres à la valeur économique.
 
 **Risque mitigation**
 - Observation : Le risque principal identifié est des réponses inexactes ou impersonnelles, et la mitigation proposée est la supervision humaine et le transfert des cas complexes.
-- Piste d'amélioration : Précisez des mesures opérationnelles concrètes (p. ex. taux d’escalade cible, fréquence d’audit des réponses, SLAs de révision humaine).
+- Piste d'amélioration : Ajoutez une mesure concrète de mitigation (ex. : SLA de révision humaine, taux d'escalade cible) et un calendrier d'audit.
 
 **Condition succes**
-- Observation : La condition mentionne la nécessité de données fiables, de processus structurés, d'une supervision humaine et de formation des employés.
-- Piste d'amélioration : Rendez la condition vérifiable en ajoutant un indicateur et un horizon (p. ex. adoption utilisateur > 80 % en 6 mois, taux d’escalade < 10 %).
+- Observation : Les conditions listées sont des données fiables, processus structurés, supervision humaine et formation des employés, mais restent générales.
+- Piste d'amélioration : Transformez ces éléments en indicateurs vérifiables (ex. : données nettoyées à 95 %, adoption utilisateur > 75 % en 6 mois).
 
 **Ai disclosure**
-- Observation : La section AI Usage liste l'utilisation de ChatGPT pour reformulation, recherche d’informations et structuration des réponses.
-- Piste d'amélioration : Complétez ai-usage.md en précisant l'étape exacte d'utilisation, la validation humaine effectuée et les limites observées lors de l'usage de l'outil.
+- Observation : La section AI Usage indique l'utilisation de ChatGPT pour reformulation, recherche et structuration des réponses.
+- Piste d'amélioration : Complétez en précisant à quelle étape chaque outil a été utilisé, comment la sortie a été validée par un humain et quelles limites ont été observées.
 
-## 3. Déclaration d'utilisation de l'IA
+## 2. Déclaration d'utilisation de l'IA
 
-> La déclaration fournie est le modèle vierge sans réponses spécifiques aux sujets exigés. Veuillez compléter chaque section avec des informations précises (nom et version de l'outil, moment d'utilisation, validation humaine et limites observées).
+> La déclaration fournie est le template vide et ne décrit aucun usage concret de l'IA. Veuillez remplir chaque section avec des informations spécifiques (nom+version de l'outil, étape d'utilisation, méthode de validation humaine, limites observées).
 
 **Sujets à ajouter ou expliciter pour la prochaine itération :**
 
@@ -68,22 +63,22 @@ La vérification automatique n'a pas pu être réalisée (gate non applicable (t
 - comment la sortie a été validée par l'humain
 - limites ou erreurs observées
 
-## 4. Pistes d'action pour la prochaine itération
+## 3. Pistes d'action pour la prochaine itération
 
-- Compléter `ai-usage.md` en y ajoutant : outils utilisés (nom + version/modèle).
-- Compléter `ai-usage.md` en y ajoutant : à quelle étape l'IA a été utilisée.
-- Compléter `ai-usage.md` en y ajoutant : comment la sortie a été validée par l'humain.
-- Compléter `ai-usage.md` en y ajoutant : limites ou erreurs observées.
+- Compléter i-usage.md en y ajoutant : outils utilisés (nom + version/modèle).
+- Compléter i-usage.md en y ajoutant : à quelle étape l'IA a été utilisée.
+- Compléter i-usage.md en y ajoutant : comment la sortie a été validée par l'humain.
+- Compléter i-usage.md en y ajoutant : limites ou erreurs observées.
 
 ---
 
-## 5. Traçabilité
+## 4. Traçabilité
 
-- **Run ID :** `20260528T200936Z-acdfcf6a`
+- **Run ID :** `20260528T204526Z-4170164e`
 - **Devoir :** `S01`
 - **Étudiant·e :** `DidleyGeralda`
-- **Commit analysé :** `2e5a69a`
-- **Audit (côté instructeur) :** `tools/instructor/feedback_pipeline/audit/20260528T200936Z-acdfcf6a/DidleyGeralda/`
+- **Commit analysé :** `661f6c2`
+- **Audit (côté instructeur) :** `tools/instructor/feedback_pipeline/audit/20260528T204526Z-4170164e/DidleyGeralda/`
 - **Prompts (SHA-256) :**
   - `rubric_grader_system` : `505f32d1d8319d66...`
   - `ai_usage_grader_system` : `81cb7fdf89bda55a...`
